@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8" />
-		<title>Характеристическое число</title>
-		<link href="namber.css" type="text/css" rel="stylesheet" />
-		<script src="namber.js" defer></script>
-	</head>
-	<body>
-		<h1 class="name" id="ph1"></h1>
-		<div class="main">
-			<div class="one">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Характеристическое число</title>
+	<link href="namber.css" type="text/css" rel="stylesheet" />
+	<script src="namber.js" defer></script>
+</head>
+
+<body>
+	<h1 class="name" id="ph1"></h1>
+	<div class="main">
+		<div class="one">
 			<h1 class="name" id="ph4"></h1>
-				<label>Введите день рождения</label>
-				<input id="day" type="number" min="1" max="31" class="tx" /><br />
-				<label>Введите месяц рождения</label>
-				<select id="month">
+			<label>Введите день рождения</label>
+			<input id="day" type="number" min="1" max="31" class="tx" /><br />
+			<label>Введите месяц рождения</label>
+			<select id="month">
 				<option>1</option>
 				<option>2</option>
 				<option>3</option>
@@ -27,18 +29,18 @@
 				<option>10</option>
 				<option>11</option>
 				<option>12</option>
-				</select><br />
-				
-				<label>Введите год рождения</label>
-				<input id="year" type="number" min="1900" max="2150" class="tx" /><br />
-				<p><input class="butt btn1"  type="button" onclick="characterNumber ()" value="рассчитать" /></p>
-				<div id="resout">
-				</div>
-				
+			</select><br />
+			<!-- <input type="month" id="month" /><br /> -->
+			<label>Введите год рождения</label>
+			<input id="year" type="number" min="1900" max="2150" class="tx" /><br />
+			<p><input class="butt btn1" type="button" onclick="characterNumber ()" value="рассчитать" /></p>
+			<div id="resout">
 			</div>
-			
+
 		</div>
-		<!--div class="summa">
+
+	</div>
+	<!--div class="summa">
 			<input class="butt btn4" type="button" onclick="sum ()" value="итого к оплате" />
 			<div id="summ">
 			
@@ -46,5 +48,6 @@
 		</div-->
 	<footer>
 	</footer>
-	</body>
+</body>
+
 </html>
